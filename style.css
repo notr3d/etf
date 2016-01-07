@@ -1,4 +1,29 @@
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: sans-serif;
+}
+.slick-dots {
+  width: 30px;
+  height: 100px;
+  top: 50%;
+  right: 30px;
+  margin-top: -50px;
+}
+.page-slider {
+  width: 100vw;
+}
+.page-slider__slide--1 {
+  background: green;
+}
+.page-slider__slide--2 {
+  background: blue;
+}
+.page-slider__slide--3 {
+  background: yellow;
+}
+.page-slider__slide--4 {
+  background: brown;
+}
+.page-slider__inner {
+  height: 100vh;
 }

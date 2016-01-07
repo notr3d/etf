@@ -9,5 +9,34 @@
 
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family:  sans-serif;
+}
+
+.slick-dots {
+  width: 30px;
+  height: 100px;
+  top: 50%;
+  right: 30px;
+  margin-top: -50px;
+}
+
+.page-slider {
+  width: 100vw;
+  &__slide {
+    &--1 {
+      background: green;
+    }
+    &--2 {
+      background: blue;
+    }
+    &--3 {
+      background: yellow;
+    }
+    &--4 {
+      background: brown;
+    }
+  }
+  &__inner {
+    height: 100vh;
+  }
 }
