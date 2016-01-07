@@ -1,0 +1,57 @@
+.stats {
+  background: #f8f8f8;
+  &__wrapper {
+    .lcw;
+    padding: 75px 0 90px 440px;
+    background: url(img/ipad.png) no-repeat 0 50%;
+  }
+  &__header {
+    font-size: 30px;
+    color: #4182bd;
+    margin: 0;
+    &--small {
+      font-size: 18px;
+      color: #3d4258;
+    }
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #52555c;
+  }
+  &__container {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+  }
+  &__item {
+    display: inline-block;
+    vertical-align: top;
+    width: 160px;
+    flex-basis: 120px;
+    margin-top: 20px;
+    &:nth-child(1) {
+      color:#3a7dbb;
+    }
+    &:nth-child(2) {
+      color:#5b286e;
+      flex-basis: 190px;
+    }
+    &:nth-child(3) {
+      color:#ce1350;
+    }
+    
+    p {
+      font-size: 72px;
+      font-weight: bold;
+      margin: 0;
+    }
+    span {
+      font-size: 12px;
+    }
+  }
+}

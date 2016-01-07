@@ -1,8 +1,13 @@
-$(document).ready(function(){
-  $('.page-slider__wrapper').slick({
-    dots:true,
-    vertical:true,
-    verticalSwiping:true,
-    infinite:false
-  });
+$(document).ready(function() {
+    $('#fullpage').fullpage({
+      scrollBar:true,
+      verticalCentered:false
+    });
+    $('.slider').slick({
+      autoplay:true,
+      autoplaySpeed:1000,
+      arrows:false,
+      draggable:false,
+      fade:true
+    });
 });
