@@ -28,12 +28,8 @@
     margin-bottom: 10px;
     line-height: 24px;
     overflow: hidden;
-    &:hover {
-      .features__inner {
-        top: 0;
-        transition: all .3s;
-      }
-    }
+    background: no-repeat center;
+    background-position: 50% 30%;
     h3 {
       margin: 0;
       font-size: 18px;
@@ -44,14 +40,39 @@
       
     }
     &:nth-of-type(3n-2) {
-      background: #3a7dbb;
+      background-color: #3a7dbb;
     }
     &:nth-of-type(3n-1) {
-      background: #5b286e;
+      background-color: #5b286e;
     }
     &:nth-of-type(3n) {
-      background: #ce1350;
+      background-color: #ce1350;
     }
+    &:nth-of-type(1) {
+      background-image: url(../img/features/1.png);
+    }
+    &:nth-of-type(2) {
+      background-image: url(../img/features/2.png);
+    }
+    &:nth-of-type(3) {
+      background-image: url(../img/features/3.png);
+    }
+    &:nth-of-type(4) {
+      background-image: url(../img/features/4.png);
+    }
+    &:nth-of-type(5) {
+      background-image: url(../img/features/5.png);
+    }
+    &:nth-of-type(6) {
+      background-image: url(../img/features/6.png);
+    }
+    &:hover {
+      background-image: none;
+      .features__inner {
+        top: 0;
+        transition: all .3s;
+      }
+    }    
   }
   &__inner {
     position: absolute;

@@ -5,7 +5,7 @@ $(document).ready(function() {
     });
     $('.slider').slick({
       autoplay:true,
-      autoplaySpeed:1000,
+      autoplaySpeed:2000,
       arrows:false,
       draggable:false,
       fade:true
