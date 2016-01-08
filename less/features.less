@@ -37,7 +37,7 @@
     }
     p {margin: 0;
       font-size: 14px;
-      
+      text-align: justify;
     }
     &:nth-of-type(3n-2) {
       background-color: #3a7dbb;
@@ -67,7 +67,8 @@
       background-image: url(../img/features/6.png);
     }
     &:hover {
-      background-image: none;
+      background-position: 50% -50%;      
+      transition: all .3s;
       .features__inner {
         top: 0;
         transition: all .3s;

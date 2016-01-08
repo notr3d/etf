@@ -64,8 +64,8 @@
 .stats__wrapper {
   max-width: 940px;
   margin: 0 auto;
-  padding: 75px 0 90px 440px;
-  background: url(../img/ipad.png) no-repeat 0 70%;
+  padding: 75px 0 90px 445px;
+  background: url(../img/ipad.png) no-repeat 0 80px;
 }
 .stats__header {
   font-size: 30px;
@@ -73,6 +73,7 @@
   margin: 0;
 }
 .stats__header--small {
+  margin-top: 40px;
   font-size: 18px;
   color: #3d4258;
 }
@@ -118,7 +119,7 @@
 .info {
   max-width: 940px;
   margin: 0 auto;
-  background: url(../img/ipad-2.png) no-repeat 0 100%;
+  background: url(../img/ipad-2.png) no-repeat 40px 100%;
   position: relative;
 }
 .com {
@@ -133,7 +134,7 @@
 .com__header {
   font-weight: 30px;
   color: #4182bd;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 .com__text {
   font-size: 14px;
@@ -160,7 +161,7 @@
 .why {
   position: absolute;
   bottom: 0;
-  padding-left: 370px;
+  padding-left: 445px;
   padding-bottom: 30px;
 }
 .why__header {
@@ -217,6 +218,7 @@
 .features__item p {
   margin: 0;
   font-size: 14px;
+  text-align: justify;
 }
 .features__item:nth-of-type(3n-2) {
   background-color: #3a7dbb;
@@ -246,7 +248,8 @@
   background-image: url(../img/features/6.png);
 }
 .features__item:hover {
-  background-image: none;
+  background-position: 50% -50%;
+  transition: all .3s;
 }
 .features__item:hover .features__inner {
   top: 0;
